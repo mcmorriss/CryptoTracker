@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252a;
+}
+
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #cbb26a;
+  text-decoration: none;
+  background-color: #24252a;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  margin-bottom: 40px;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: #aaabab;
+  text-align: center;
+  border: 1px solid black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin: 0;
+}
+
+.title {
+  font-size: medium;
+}
+
+.grid-container_2 {
+  background-color: #aaabab;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+
+tr {
+  position: relative;
+}
+
+th {
+  border-right-width: medium;
+  border-right-style: groove;
+  border-style: groove;
+  width: 25%;
+}
+
+table {
+  display: block;
+  margin: auto;
+}
+
+.table-container {
+  width: 50%;
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.foot_title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #cbb26a;
+}
+
+.foot_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.left {
+  background-color: #aaabab;
+  width: 80%;
+  float: left;
+  padding: 10px;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.news-item {
+  display: flex;
+  background-color: #aaabab;
+  text-align: left;
+  border: 1px solid black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.news-title {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.left_faq {
+  width: 60%;
+  float: left;
+  padding: 10px;
+}
+
+.right_faq {
+  width: 40%;
+  float: right;
+  padding: 10px;
+}

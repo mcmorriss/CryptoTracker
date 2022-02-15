@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoTracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img class='logo' src="images/trackerlogo.png" alt="">
+            <img class='logo' src="images/trackertext.png" alt="">
+        </a>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cryptos.html">Cryptos</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="convert.html">Convert</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#"><button>Contact</button></a>
+    </header>
+
+
+    <div class="table-container">
+        <h1 class="grid-item" style="padding: 5px">Latest Cryptocurrency News</h1>
+        
+        <div style="height: 20px;"></div>
+        
+        <div class="grid-item" style="padding-bottom: 10px;">
+            <h1 class="title">Search News by Cryptocurrency: </h1>
+            <input type="text"><button>Submit</button>
+        </div>
+        
+        <div style="height: 20px;"></div>
+
+        <div class="news-item">
+            <div class="left">
+                <a href="">MarketWatch</a>
+                <p class="news-title">Crypto companies spent millions on Super Bowl ads, but it didn't lift 
+                    bitcoin price Monday</p>
+                <p class="news-desc">This a short description of the news article, you will see some characters and then...</p>
+                <p class="news-date">Posted 8 hours ago</p>
+            </div>
+            <div class="right"><img src="data:image/jpeg;base64,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" alt=""></div>
+    
+        </div>
+
+        <div style="height: 20px;"></div>
+
+        <div class="news-item">
+            <div class="left">
+                <a href="">Yahoo Finance</a>
+                <p class="news-title">Peter Schiff Predicts Bitcoin (BTC) at $10,000</p>
+                <p class="news-desc">This a short description of the news article, you will see some characters and then...</p>
+                <p class="news-date">Posted 12 hours ago</p>
+            </div>
+            <div class="right"><img
+                    src="data:image/jpeg;base64,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"
+                    alt=""></div>
+        </div>
+
+        <div style="height: 20px;"></div>
+
+        <div class="news-item">
+            <div class="left">
+                <a href="">Decrypt</a>
+                <p class="news-title">Gemini Client IRA Financial Hacked for $36M in Bitcoin and Ethereum</p>
+                <p class="news-desc">This a short description of the news article, you will see some characters and then...</p>
+                <p class="news-date">Posted 4 hours ago</p>
+            </div>
+            <div class="right"><img
+                    src="data:image/jpeg;base64,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"
+                    alt=""></div>
+        </div>
+        
+        <div style="height: 20px;"></div>
+
+        <div class="news-item">
+            <div class="left">
+                <a href="">Forbes</a>
+                <p class="news-title">Crypto Suddenly Braced For A Huge $10 Trillion Earthquake</p>
+                <p class="news-desc">This a short description of the news article, you will see some characters and then...</p>
+                <p class="news-date">Posted 2 days ago</p>
+            </div>
+            <div class="right"><img
+                    src="data:image/jpeg;base64,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"
+                    alt=""></div>
+        </div>
+        
+        <div style="height: 20px;"></div>
+
+        
+
+    </div>
+
+
+        
+
+
+</body>
+<footer id="footer">
+    <ul class="foot_links">
+        <h1 class="foot_title">CryptoTracker (All Rights Reserved)</h1>
+        <li>Homepage</li>
+        <li>Cryptocurrencies</li>
+        <li>News</li>
+        <li>FAQ</li>
+        <li>GitHub</li>
+        <li>LinkedIn</li>
+    </ul>
+    <h1 class="foot_title" style="font-size: 13px">Created By: Michael Morriss, February 2022</h1>
+</footer>
+
+</html>
